@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>deep deep — кофе и еда в Йошкар-Оле</title>
+
+    <meta
+        name="description"
+        content="deep deep — кофе, еда и атмосфера в Йошкар-Оле."
+    >
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="container header__inner">
+
+            <a href="#" class="logo">
+                deep deep<span>.</span>
+            </a>
+
+            <nav class="nav">
+
+                <a href="#menu">Меню</a>
+                <a href="#about">О нас</a>
+                <a href="#gallery">Атмосфера</a>
+                <a href="#booking">Бронь</a>
+                <a href="#contacts">Контакты</a>
+
+            </nav>
+
+                <a href="#booking" class="button">
+                    Забронировать
+                </a>
+
+            <button class="mobile-menu-button" aria-label="Открыть меню">
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+        <div class="mobile-menu">
+
+            <a href="#menu">Меню</a>
+            <a href="#about">О нас</a>
+            <a href="#gallery">Атмосфера</a>
+            <a href="#booking">Бронь</a>
+            <a href="#contacts">Контакты</a>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero__image"></div>
+
+            <div class="hero__overlay"></div>
+
+            <div class="container hero__content">
+
+                <div class="hero__top">
+
+                    <p class="hero__location">
+                        ЙОШКАР-ОЛА · Б-Р ЧАВАЙНА, 35
+                    </p>
+
+                    <p class="hero__hours">
+                        ЕЖЕДНЕВНО · 07:00—22:00
+                    </p>
+
+                </div>
+
+                <div class="hero__main">
+
+                    <p class="hero__subtitle">
+                        COFFEE · FOOD · PEOPLE
+                    </p>
+
+                    <h1>
+                        deep<br>
+                        deep<span>.</span>
+                    </h1>
+
+                    <p class="hero__description">
+                        Место, куда приходят за кофе,<br>
+                        остаются ради атмосферы.
+                    </p>
+
+                    <div class="hero__buttons">
+
+                        <a href="#menu" class="button button--light">
+                            Смотреть меню
+                        </a>
+
+                        <a href="#booking" class="button">
+                            Забронировать
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hero__bottom">
+
+                    <span>SCROLL TO EXPLORE</span>
+
+                    <span class="hero__arrow">
+                        ↓
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="about" id="about">
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <p class="section-label">
+                        01 / О НАС
+                    </p>
+
+                    <h2>
+                        Не просто<br>
+                        кофе.
+                    </h2>
+
+                </div>
+
+                <div class="about__content">
+
+                    <p class="about__lead">
+                        deep deep — место для встреч,
+                        разговоров, завтраков и кофе,
+                        который хочется взять с собой.
+                    </p>
+
+                    <div class="about__text">
+
+                        <p>
+                            Здесь будет настоящая история
+                            кофейни. Мы заменим этот текст
+                            после согласования с владельцем.
+                        </p>
+
+                        <a href="#contacts" class="text-link">
+                            Узнать больше
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+       <section class="menu" id="menu">
+
+    <div class="container">
+
+        <div class="section-head section-head--light">
+
+            <p class="section-label">
+                02 / МЕНЮ
+            </p>
+
+            <h2>
+                Что будем?
+            </h2>
+
+        </div>
+
+
+        <!-- КАТЕГОРИИ -->
+
+        <div class="menu-tabs">
+
+            <button class="menu-tab active" data-category="all">
+                Всё
+            </button>
+
+            <button class="menu-tab" data-category="coffee">
+                Кофе
+            </button>
+
+            <button class="menu-tab" data-category="food">
+                Еда
+            </button>
+
+            <button class="menu-tab" data-category="dessert">
+                Десерты
+            </button>
+
+            <button class="menu-tab" data-category="drinks">
+                Напитки
+            </button>
+
+        </div>
+
+
+        <!-- СПИСОК МЕНЮ -->
+
+        <div class="menu-list">
+
+
+            <!-- КОФЕ -->
+
+            <div class="menu-item" data-category="coffee">
+
+                <div>
+
+                    <span class="menu-item__category">
+                        КОФЕ
+                    </span>
+
+                    <h3>
+                        Эспрессо
+                    </h3>
+
+                </div>
+
+                <span class="menu-item__price">
+                    ₽
+                </span>
+
+            </div>
+
+
+            <div class="menu-item" data-category="coffee">
+
+                <div>
+
+                    <span class="menu-item__category">
+                        КОФЕ
+                    </span>
+
+                    <h3>
+                        Капучино
+                    </h3>
+
+                </div>
+
+                <span class="menu-item__price">
+                    ₽
+                </span>
+
+            </div>
+
+
+            <div class="menu-item" data-category="coffee">
+
+                <div>
+
+                    <span class="menu-item__category">
+                        КОФЕ
+                    </span>
+
+                    <h3>
+                        Латте
+                    </h3>
+
+                </div>
+
+                <span class="menu-item__price">
+                    ₽
+                </span>
+
+            </div>
+
+
+            <div class="menu-item" data-category="coffee">
+
+                <div>
+
+                    <span class="menu-item__category">
+                        КОФЕ
+                    </span>
+
+                    <h3>
+                        Раф
+                    </h3>
+
+                </div>
+
+                <span class="menu-item__price">
+                    ₽
+                </span>
+
+            </div>
+
+
+            <!-- ЕДА -->
+
+            <div class="menu-item" data-category="food">
+
+                <div>
+
+                    <span class="menu-item__category">
+                        ЕДА
+                    </span>
+
+                    <h3>
+                        Сэндвичи
+                    </h3>
+
+                </div>
+
+                <span class="menu-item__price">
+                    ₽
+                </span>
+
+            </div>
+
+
+            <div class="menu-item" data-category="food">
+
+                <div>
+
+                    <span class="menu-item__category">
+                        ЕДА
+                    </span>
+
+                    <h3>
+                        Буррито
+                    </h3>
+
+                </div>
+
+                <span class="menu-item__price">
+                    ₽
+                </span>
+
+            </div>
+
+
+            <div class="menu-item" data-category="food">
+
+                <div>
+
+                    <span class="menu-item__category">
+                        ЕДА
+                    </span>
+
+                    <h3>
+                        Завтраки
+                    </h3>
+
+                </div>
+
+                <span class="menu-item__price">
+                    ₽
+                </span>
+
+            </div>
+
+
+            <!-- ДЕСЕРТЫ -->
+
+            <div class="menu-item" data-category="dessert">
+
+                <div>
+
+                    <span class="menu-item__category">
+                        ДЕСЕРТЫ
+                    </span>
+
+                    <h3>
+                        Моти
+                    </h3>
+
+                </div>
+
+                <span class="menu-item__price">
+                    ₽
+                </span>
+
+            </div>
+
+
+            <div class="menu-item" data-category="dessert">
+
+                <div>
+
+                    <span class="menu-item__category">
+                        ДЕСЕРТЫ
+                    </span>
+
+                    <h3>
+                        Эскимо
+                    </h3>
+
+                </div>
+
+                <span class="menu-item__price">
+                    ₽
+                </span>
+
+            </div>
+
+
+            <!-- НАПИТКИ -->
+
+            <div class="menu-item" data-category="drinks">
+
+                <div>
+
+                    <span class="menu-item__category">
+                        НАПИТКИ
+                    </span>
+
+                    <h3>
+                        Какао
+                    </h3>
+
+                </div>
+
+                <span class="menu-item__price">
+                    ₽
+                </span>
+
+            </div>
+
+
+            <div class="menu-item" data-category="drinks">
+
+                <div>
+
+                    <span class="menu-item__category">
+                        НАПИТКИ
+                    </span>
+
+                    <h3>
+                        Авторские напитки
+                    </h3>
+
+                </div>
+
+                <span class="menu-item__price">
+                    ₽
+                </span>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+        <section class="gallery" id="gallery">
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <p class="section-label">
+                        03 / АТМОСФЕРА
+                    </p>
+
+                    <h2>
+                        Загляните<br>
+                        внутрь.
+                    </h2>
+
+                </div>
+
+                <div class="gallery__grid">
+
+                    <div class="gallery__item gallery__item--big">
+                        <span>PHOTO 01</span>
+                    </div>
+
+                    <div class="gallery__item">
+                        <span>PHOTO 02</span>
+                    </div>
+
+                    <div class="gallery__item">
+                        <span>PHOTO 03</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="booking" id="booking">
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <p class="section-label">
+                        04 / БРОНИРОВАНИЕ
+                    </p>
+
+                    <h2>
+                        Увидимся<br>
+                        за столом.
+                    </h2>
+
+                </div>
+
+                <form class="booking__form">
+
+                    <div class="form-field">
+
+                        <label for="name">
+                            Имя
+                        </label>
+
+                        <input
+                            id="name"
+                            type="text"
+                            placeholder="Ваше имя"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-field">
+
+                        <label for="phone">
+                            Телефон
+                        </label>
+
+                        <input
+                            id="phone"
+                            type="tel"
+                            value="+7 "
+                            placeholder="+7 (___) ___-__-__"
+                            inputmode="numeric"
+                            autocomplete="tel"
+                            maxlength="18"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-field">
+
+                        <label for="date">
+                            Дата
+                        </label>
+
+                        <input
+                            id="date"
+                            type="text"
+                            placeholder="ДД.ММ.ГГГГ"
+                            autocomplete="off"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-field">
+
+                        <label for="time">
+                            Время
+                        </label>
+
+                        <input
+                            id="time"
+                            type="text"
+                            placeholder="Выберите время"
+                            autocomplete="off"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-field">
+
+                        <label for="guests">
+                            Гостей
+                        </label>
+
+                        <select id="guests">
+
+                            <option value="1">
+                                1 человек
+                            </option>
+
+                            <option value="2" selected>
+                                2 человека
+                            </option>
+
+                            <option value="3">
+                                3 человека
+                            </option>
+
+                            <option value="4">
+                                4 человека
+                            </option>
+
+                            <option value="5">
+                                5 человек
+                            </option>
+
+                            <option value="6">
+                                6 человек
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-field form-field--button">
+
+                        <button
+                            type="submit"
+                            class="button button--dark"
+                        >
+                            Забронировать
+                            <span>↗</span>
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+        <section class="contacts" id="contacts">
+
+            <div class="container">
+
+                <div class="contacts__top">
+
+                    <p class="section-label">
+                        05 / КОНТАКТЫ
+                    </p>
+
+                    <h2>
+                        Заходите<br>
+                        в гости.
+                    </h2>
+
+                </div>
+
+
+                <div class="contacts__grid">
+
+                    <div>
+
+                        <p class="contacts__label">
+                            АДРЕС
+                        </p>
+
+                        <p class="contacts__value">
+                            Йошкар-Ола,<br>
+                            б-р Чавайна, 35
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <p class="contacts__label">
+                            ВРЕМЯ РАБОТЫ
+                        </p>
+
+                        <p class="contacts__value">
+                            Каждый день<br>
+                            07:00 — 22:00
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-item">
+                        <span>ТЕЛЕФОН</span>
+
+                        <a href="tel:+79877236343">
+                            +7 987 723-63-43 ↗
+                        </a>
+                    </div>
+
+
+                    <div>
+
+                        <p class="contacts__label">
+                            СОЦСЕТИ
+                        </p>
+
+                        <div class="contact-item">
+                            <span>INSTAGRAM</span>
+
+                        <a
+                            href="https://instagram.com/deep4deep"
+                            target="_blank"
+                        rel="noopener"
+                        >
+        @deep4deep ↗
+    </a>
+</div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="container footer__inner">
+
+            <span>
+                deep deep.
+            </span>
+
+            <span>
+                Йошкар-Ола · 2026
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ru.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
